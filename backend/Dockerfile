@@ -6,7 +6,7 @@ WORKDIR /app/backend
 
 # Install system dependencies required by some Python packages (e.g., for pdfplumber, matplotlib)
 # This is a common set; might need adjustment based on specific errors
-RUN apt-get update && apt-get install -y     build-essential     libgl1-mesa-glx     poppler-utils     tesseract-ocr     && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y     build-essential     libgl1-mesa-glx     && rm -rf /var/lib/apt/lists/*
 
 # Copy the requirements file and install Python dependencies
 COPY requirements.txt .

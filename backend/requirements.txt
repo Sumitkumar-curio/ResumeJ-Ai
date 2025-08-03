@@ -88,7 +88,7 @@ packaging==24.2
 pandas==2.2.3
 parso==0.8.4
 pdfminer.six==20250327
-pdfplumber==0.11.6
+
 pillow==11.1.0
 platformdirs==4.3.6
 pluggy==1.6.0
