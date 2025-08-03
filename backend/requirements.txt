@@ -29,7 +29,7 @@ debugpy==1.8.13
 decorator==5.2.1
 distlib==0.3.9
 distro==1.9.0
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+
 
 executing==2.2.0
 fastapi==0.115.8
@@ -93,7 +93,7 @@ pillow==11.1.0
 platformdirs==4.3.6
 pluggy==1.6.0
 preshed==3.0.10
-prompt_toolkit==3.0.50
+prompth_toolkit==3.0.50
 protobuf==5.29.3
 psutil==7.0.0
 pure_eval==0.2.3
@@ -109,7 +109,7 @@ PyJWT==1.7.1
 PyMuPDF==1.25.3
 pyparsing==3.2.3
 pypdfium2==4.30.1
-pytesseract==0.3.13
+
 pytest==8.4.1
 python-dateutil==2.9.0.post0
 python-docx==1.1.2
@@ -117,7 +117,7 @@ python-dotenv==1.1.1
 python-multipart==0.0.20
 python-slugify==8.0.4
 pytz==2025.1
-pywin32==309
+
 PyYAML==6.0.2
 pyzmq==26.3.0
 referencing==0.36.2
