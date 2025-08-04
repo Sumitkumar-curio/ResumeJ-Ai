@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y     build-essential     libgl1-mesa-glx
 # Copy the requirements file and install Python dependencies
 COPY requirements.txt .
 RUN pip install --upgrade pip setuptools wheel
-RUN pip install --no-cache-dir torch==2.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+RUN pip install --no-cache-dir torch -f https://download.pytorch.org/whl/torch_stable.html
 RUN pip install --no-cache-dir -r requirements.txt -v
 
 # Copy the rest of your application code
